@@ -1,4 +1,4 @@
-package com.projects.thebestpiwobackend;
+package com.projects.thebestpiwobackend.piwa;
 
 public record PiwoIdPair(int id, int id2) {
     public PiwoIdPair(int id, int id2) {

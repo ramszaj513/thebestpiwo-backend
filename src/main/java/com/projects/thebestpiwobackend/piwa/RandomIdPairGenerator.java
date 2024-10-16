@@ -1,9 +1,8 @@
-package com.projects.thebestpiwobackend;
+package com.projects.thebestpiwobackend.piwa;
 
 import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
-import java.util.Random;
 
 @Service
 public class RandomIdPairGenerator {

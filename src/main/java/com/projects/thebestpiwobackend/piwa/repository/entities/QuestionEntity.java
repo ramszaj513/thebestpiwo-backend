@@ -1,4 +1,4 @@
-package com.projects.thebestpiwobackend;
+package com.projects.thebestpiwobackend.piwa.repository.entities;
 
 import lombok.Getter;
 import lombok.Setter;
