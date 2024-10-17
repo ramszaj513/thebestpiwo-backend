@@ -28,10 +28,15 @@ class PiwoRaterService {
     public QuestionResponse generateQuestion() {
         UUID uuid = UUID.randomUUID();
         PiwoIdPair pair = randomIdPairGenerator.generate();
-
+        Optional<PiwoEntity> firstPiwo = piwoRepository.getById(pair.id());
+        Optional<PiwoEntity> secondPiwo = piwoRepository.getById(pair.id2());
+        if( firstPiwo.isEmpty() || secondPiwo.isEmpty()) {
+            throw new RuntimeException("This beers don't exist in the database");
+        }
+        PiwoEntity firstPiwoEntity = firstPiwo.get();
+        PiwoEntity secondPiwoEntity = secondPiwo.get();
         questionRepository.insert(new QuestionEntity(uuid, pair.id(), pair.id2(), LocalDateTime.now()));
-        return new QuestionResponse(uuid.toString(), pair.id(), pair.id2());
-
+        return new QuestionResponse(uuid.toString(), pair.id(), firstPiwoEntity.getName(), pair.id2(), secondPiwoEntity.getName());
     }
 
     public void processAnswer(UUID id, int winnerPiwoId) {
