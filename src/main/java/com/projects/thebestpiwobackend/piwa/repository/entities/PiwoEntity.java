@@ -12,9 +12,9 @@ public class PiwoEntity {
     private String name;
     private int rating;
 
-    public PiwoEntity(String name, int id, int rating) {
-        this.name = name;
+    public PiwoEntity(int id, String name, int rating) {
         this.id = id;
+        this.name = name;
         this.rating = rating;
     }
 }
