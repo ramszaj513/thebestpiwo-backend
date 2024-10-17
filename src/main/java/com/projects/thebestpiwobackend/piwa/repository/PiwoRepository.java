@@ -38,7 +38,7 @@ public class PiwoRepository {
         db.put(11, new PiwoEntity(11, "Łomża Jasne", 1000));
         db.put(12, new PiwoEntity(12, "Łomża Miodowe", 1000));
         db.put(13, new PiwoEntity(13, "Namysłów Pils", 1000));
-        db.put(14, new PiwoEntity(14, "Kasztelan Niepasteryzowane", 1000));
+        db.put(14, new PiwoEntity(14, "Kasztelan", 1000));
         db.put(15, new PiwoEntity(15, "Żubr", 1000));
         db.put(16, new PiwoEntity(16, "Harnaś", 1000));
         db.put(17, new PiwoEntity(17, "Specjal Jasny Pełny", 1000));
@@ -65,20 +65,23 @@ public class PiwoRepository {
         db.put(38, new PiwoEntity(38, "Miłosław Witbier", 1000));
         db.put(39, new PiwoEntity(39, "Cornelius IPA", 1000));
         db.put(40, new PiwoEntity(40, "Cornelius Pszeniczne", 1000));
-        db.put(41, new PiwoEntity(41, "Brok Export", 1000));
-        db.put(42, new PiwoEntity(42, "Brok Sambor", 1000));
-        db.put(43, new PiwoEntity(43, "Piast Wrocławski", 1000));
-        db.put(44, new PiwoEntity(44, "Karmi Classic", 1000));
-        db.put(45, new PiwoEntity(45, "Karmi Malinowa", 1000));
-        db.put(46, new PiwoEntity(46, "Somersby Apple", 1000));
-        db.put(47, new PiwoEntity(47, "Somersby Pear", 1000));
-        db.put(48, new PiwoEntity(48, "Somersby Blackberry", 1000));
-        db.put(49, new PiwoEntity(49, "Somersby Watermelon", 1000));
-        db.put(50, new PiwoEntity(50, "Somersby Elderflower Lime", 1000));
-        db.put(51, new PiwoEntity(51, "Red's Apple", 1000));
-        db.put(52, new PiwoEntity(52, "Red's Grapefruit", 1000));
-        db.put(53, new PiwoEntity(53, "Red's Orange", 1000));
-        db.put(54, new PiwoEntity(54, "Red's Strawberry", 1000));
+        db.put(41, new PiwoEntity(41, "Romber Lager", 1000));
+        db.put(42, new PiwoEntity(42, "Romber Pale Ale", 1000));
+        db.put(43, new PiwoEntity(43, "Romber Wheat", 1000));
+        db.put(44, new PiwoEntity(44, "Zatecky Světlý Ležák", 1000));
+        db.put(45, new PiwoEntity(45, "Zatecky Pils", 1000));
+        db.put(46, new PiwoEntity(46, "Garage Hard Lemonade", 1000));
+        db.put(47, new PiwoEntity(47, "Garage Hard Apple", 1000));
+        db.put(48, new PiwoEntity(48, "Garage Hard Raspberry", 1000));
+        db.put(49, new PiwoEntity(49, "Somersby Apple", 1000));
+        db.put(50, new PiwoEntity(50, "Somersby Pear", 1000));
+        db.put(51, new PiwoEntity(51, "Somersby Blackberry", 1000));
+        db.put(52, new PiwoEntity(52, "Somersby Watermelon", 1000));
+        db.put(53, new PiwoEntity(53, "Somersby Elderflower Lime", 1000));
+        db.put(54, new PiwoEntity(54, "Red's Apple", 1000));
+        db.put(55, new PiwoEntity(55, "Red's Grapefruit", 1000));
+        db.put(56, new PiwoEntity(56, "Red's Orange", 1000));
+        db.put(57, new PiwoEntity(57, "Red's Strawberry", 1000));
     }
 
 }

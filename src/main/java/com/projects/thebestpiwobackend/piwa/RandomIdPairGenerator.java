@@ -15,7 +15,7 @@ public class RandomIdPairGenerator {
     }
 
     private int randomId() {
-        return random.nextInt(50) + 1;
+        return random.nextInt(57) + 1;
     }
 
     private int generateExcept(int except){
