@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://thebestpiwo.vercel.app")
+@CrossOrigin(origins = {"https://thebestpiwo.vercel.app", "https://thebestpiwo-6unld354t-kubas-projects-19ea84f5.vercel.app"})
 @RestController
 public class PiwoController {
 
